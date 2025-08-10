@@ -28,4 +28,9 @@
 
     <!-- Security note -->
     <string name="security_note">توجه: به دلیل محدودیت‌های امنیتی اندروید، برنامه‌ها نمی‌توانند بدون تأیید کاربر، ویجت را به صورت خودکار اضافه کنند.</string>
+
+    <string name="rate_us">امتیاز دهی</string>
+    <string name="contact_developer">تماس با توسعه‌دهنده</string>
+    <string name="rate_us_error">خطا در باز کردن فروشگاه برنامه</string>
+    <string name="telegram_not_found">تلگرام نصب نیست. آیدی توسعه‌دهنده:</string>
 </resources>

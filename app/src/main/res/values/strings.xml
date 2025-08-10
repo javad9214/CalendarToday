@@ -1,6 +1,5 @@
 <resources>
     <!-- Widget related strings -->
-    <string name="widget_description">ویجت تاریخ فارسی</string>
     <string name="app_name">ویجت تاریخ شمسی</string>
 
     <!-- Main Activity strings -->
@@ -28,4 +27,14 @@
 
     <!-- Security note -->
     <string name="security_note">توجه: به دلیل محدودیت‌های امنیتی اندروید، برنامه‌ها نمی‌توانند بدون تأیید کاربر، ویجت را به صورت خودکار اضافه کنند.</string>
+
+    <!-- Existing strings -->
+
+
+    <!-- New strings for enhanced UI -->
+    <string name="widget_description">نمایش زیبا و دقیق تاریخ شمسی روی صفحه اصلی گوشی شما</string>
+    <string name="rate_us">امتیاز دهی</string>
+    <string name="contact_developer">تماس با توسعه‌دهنده</string>
+    <string name="rate_us_error">خطا در باز کردن فروشگاه برنامه</string>
+    <string name="telegram_not_found">تلگرام نصب نیست. آیدی توسعه‌دهنده:</string>
 </resources>
