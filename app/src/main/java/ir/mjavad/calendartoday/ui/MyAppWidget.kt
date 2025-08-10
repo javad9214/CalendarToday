@@ -22,10 +22,7 @@ import androidx.glance.layout.Box
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.padding
 import androidx.glance.unit.ColorProvider
-import ir.mjavad.calendartoday.util.FarsiDateUtil.getDayOfWeek
-import ir.mjavad.calendartoday.util.FarsiDateUtil.getFormattedDate
 import ir.mjavad.calendartoday.util.FarsiDateUtil.getTodayFormatted
-import ir.mjavad.calendartoday.util.FarsiDateUtil.getTodayPersianDateTriple
 
 class BlurredTextWidgetReceiver : GlanceAppWidgetReceiver() {
     override val glanceAppWidget: GlanceAppWidget = BlurredTextWidget()
