@@ -24,6 +24,7 @@ import androidx.glance.layout.padding
 import androidx.glance.unit.ColorProvider
 import ir.mjavad.calendartoday.util.FarsiDateUtil.getDayOfWeek
 import ir.mjavad.calendartoday.util.FarsiDateUtil.getFormattedDate
+import ir.mjavad.calendartoday.util.FarsiDateUtil.getTodayFormatted
 import ir.mjavad.calendartoday.util.FarsiDateUtil.getTodayPersianDateTriple
 
 class BlurredTextWidgetReceiver : GlanceAppWidgetReceiver() {
@@ -32,18 +33,12 @@ class BlurredTextWidgetReceiver : GlanceAppWidgetReceiver() {
 
 class BlurredTextWidget : GlanceAppWidget() {
 
-    private val todayTriple = getTodayPersianDateTriple()
-    private val year = todayTriple.first
-    private val month = todayTriple.second
-    private val day = todayTriple.third
 
-    private val dayOfWeek = getDayOfWeek(year, month, day)
-    private val todayDate = getFormattedDate(dayOfWeek, year, month, day)
 
     override suspend fun provideGlance(context: Context, id: GlanceId) {
         provideContent {
-            Log.i(TAG, "provideGlance: today date is : $todayDate ")
-            val bitmap = renderTextToBitmap(context, todayDate)
+            Log.i(TAG, "provideGlance: today date is : ${getTodayFormatted()} ")
+            val bitmap = renderTextToBitmap(context, getTodayFormatted())
             BlurredTextWidgetContent( bitmap)
         }
     }

@@ -38,6 +38,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ir.mjavad.calendartoday.R
+import ir.mjavad.calendartoday.util.FarsiDateUtil.getTodayFormatted
 
 class MainActivity : ComponentActivity() {
 
@@ -101,7 +102,7 @@ class MainActivity : ComponentActivity() {
             )
 
             Text(
-                text = stringResource(R.string.sample_date),
+                text = getTodayFormatted(),
                 fontSize = 20.sp,
                 modifier = Modifier.padding(bottom = 32.dp)
             )

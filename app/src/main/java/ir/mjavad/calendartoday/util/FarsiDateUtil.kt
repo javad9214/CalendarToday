@@ -21,7 +21,7 @@ object FarsiDateUtil {
         "آبان", "آذر", "دی", "بهمن", "اسفند"
     )
 
-    fun getDayInMonth(month: Int, year: Int): Int{
+    fun getDayInMonth(month: Int, year: Int): Int {
         val daysInMonth = when (month) {
             1, 2, 3, 4, 5, 6 -> 31
             7, 8, 9, 10, 11 -> 30
@@ -78,4 +78,14 @@ object FarsiDateUtil {
         return formatter.format(Date())
     }
 
+    fun getTodayFormatted(): String {
+        val todayTriple = getTodayPersianDateTriple()
+        val year = todayTriple.first
+        val month = todayTriple.second
+        val day = todayTriple.third
+
+        val dayOfWeek = getDayOfWeek(year, month, day)
+        val todayDate = getFormattedDate(dayOfWeek, year, month, day)
+        return todayDate
+    }
 }
