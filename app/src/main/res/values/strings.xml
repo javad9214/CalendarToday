@@ -1,0 +1,31 @@
+<resources>
+    <!-- Widget related strings -->
+    <string name="widget_description">ویجت تاریخ فارسی</string>
+    <string name="app_name">ویجت تاریخ شمسی</string>
+
+    <!-- Main Activity strings -->
+    <string name="persian_date_widget">ویجت تاریخ فارسی</string>
+    <string name="sample_date">پنجشنبه ۸ شهریور ۱۴۰۴</string>
+    <string name="add_widget_to_home">افزودن ویجت به صفحه اصلی</string>
+    <string name="request_widget_addition">درخواست افزودن ویجت</string>
+    <string name="show_manual_instructions">نمایش راهنمای دستی</string>
+    <string name="hide_instructions">مخفی کردن راهنما</string>
+    <string name="manual_widget_steps">مراحل افزودن دستی ویجت:</string>
+
+    <!-- Manual instructions -->
+    <string name="step_1">۱. روی صفحه اصلی گوشی خود را نگه دارید</string>
+    <string name="step_2">۲. روی \"ویجت‌ها\" یا آیکون ویجت ضربه بزنید</string>
+    <string name="step_3">۳. این برنامه را در لیست ویجت‌ها پیدا کنید</string>
+    <string name="step_4">۴. ویجت را به صفحه اصلی بکشید</string>
+    <string name="step_5">۵. آن را در جای مورد نظر قرار دهید</string>
+
+    <!-- Toast messages -->
+    <string name="widget_addition_requested">درخواست افزودن ویجت ارسال شد! لطفاً در کادر محاوره تأیید کنید.</string>
+    <string name="widget_addition_failed">درخواست افزودن ویجت ناموفق بود</string>
+    <string name="widget_pinning_not_supported">افزودن خودکار ویجت در این لانچر پشتیبانی نمی‌شود</string>
+    <string name="requires_android_8">این قابلیت نیاز به اندروید ۸.۰ یا بالاتر دارد</string>
+    <string name="manual_instruction_toast">لطفاً به صورت دستی اضافه کنید: نگه داشتن صفحه اصلی ← ویجت‌ها ← پیدا کردن این برنامه</string>
+
+    <!-- Security note -->
+    <string name="security_note">توجه: به دلیل محدودیت‌های امنیتی اندروید، برنامه‌ها نمی‌توانند بدون تأیید کاربر، ویجت را به صورت خودکار اضافه کنند.</string>
+</resources>
